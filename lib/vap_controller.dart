@@ -1,9 +1,9 @@
 import 'dart:async';
+
 import 'package:flutter/services.dart';
 
 class VapController {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_vap_controller');
+  static const MethodChannel _channel = const MethodChannel('flutter_vap_controller');
 
   /// return: play error:       {"status": "failure", "errorMsg": ""}
   ///         play complete:    {"status": "complete"}
